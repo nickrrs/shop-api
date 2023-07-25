@@ -1,0 +1,21 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nickrrs/shop-api",
+  "author": "Nickolas Ribeiro <nickolasleosantos@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0"
+  }
+}
